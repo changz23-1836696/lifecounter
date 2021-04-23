@@ -373,8 +373,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="negFive1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y2g-KJ-2i4"/>
-                                    <action selector="negFive2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ydM-aH-I6K"/>
+                                    <action selector="negFive2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aDV-xR-ia6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmJ-07-Fpa">
@@ -964,8 +963,8 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="life1" destination="PST-k3-3OI" id="5d2-2x-O8I"/>
-                        <outlet property="life2" destination="Sid-Ix-zre" id="Bgf-1I-pT8"/>
+                        <outlet property="life1" destination="PST-k3-3OI" id="uHj-NG-qHG"/>
+                        <outlet property="life2" destination="Sid-Ix-zre" id="nLc-im-1lC"/>
                         <outlet property="life3" destination="2Cf-53-9Fp" id="u6c-9v-gwH"/>
                         <outlet property="life4" destination="k5K-eU-vQ8" id="u0n-YH-61P"/>
                         <outlet property="loser" destination="qye-rZ-nuo" id="pQm-Vy-oYV"/>

@@ -9,8 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
-    
     @IBOutlet weak var life1: UILabel!
     @IBOutlet weak var life2: UILabel!
     @IBOutlet weak var life3: UILabel!
@@ -69,6 +67,7 @@ class ViewController: UIViewController {
     @IBAction func five1(_ sender: Any) {
         changeValue(val: 5, target: 1)
     }
+    
     
     @IBAction func negFive2(_ sender: Any) {
         changeValue(val: -5, target: 2)
