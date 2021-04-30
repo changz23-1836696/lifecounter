@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  lifeCounter
 //
-//  Created by 曾畅 on 2021/4/22.
+//  Created by Chang Zeng on 2021/4/22.
 //
 
 import UIKit

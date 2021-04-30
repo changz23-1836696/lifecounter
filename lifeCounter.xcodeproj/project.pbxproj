@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0921DE263BDA1B00D7D6A7 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0921DD263BDA1B00D7D6A7 /* HistoryView.swift */; };
 		EE7467AA26325EBE002AA93C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7467A926325EBE002AA93C /* AppDelegate.swift */; };
 		EE7467AC26325EBE002AA93C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7467AB26325EBE002AA93C /* SceneDelegate.swift */; };
 		EE7467AE26325EBE002AA93C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7467AD26325EBE002AA93C /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		EE7467B626325EC1002AA93C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7467B426325EC1002AA93C /* LaunchScreen.storyboard */; };
 		EE7467C126325EC1002AA93C /* lifeCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7467C026325EC1002AA93C /* lifeCounterTests.swift */; };
 		EE7467CC26325EC1002AA93C /* lifeCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7467CB26325EC1002AA93C /* lifeCounterUITests.swift */; };
+		EED84F81263A8DAD0085BE9A /* tableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED84F80263A8DAD0085BE9A /* tableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE0921DD263BDA1B00D7D6A7 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		EE7467A626325EBE002AA93C /* lifeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7467A926325EBE002AA93C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE7467AB26325EBE002AA93C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		EE7467C726325EC1002AA93C /* lifeCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifeCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7467CB26325EC1002AA93C /* lifeCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeCounterUITests.swift; sourceTree = "<group>"; };
 		EE7467CD26325EC1002AA93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED84F80263A8DAD0085BE9A /* tableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				EE7467B226325EC1002AA93C /* Assets.xcassets */,
 				EE7467B426325EC1002AA93C /* LaunchScreen.storyboard */,
 				EE7467B726325EC1002AA93C /* Info.plist */,
+				EED84F80263A8DAD0085BE9A /* tableCell.swift */,
+				EE0921DD263BDA1B00D7D6A7 /* HistoryView.swift */,
 			);
 			path = lifeCounter;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				EE7467AE26325EBE002AA93C /* ViewController.swift in Sources */,
 				EE7467AA26325EBE002AA93C /* AppDelegate.swift in Sources */,
+				EE0921DE263BDA1B00D7D6A7 /* HistoryView.swift in Sources */,
+				EED84F81263A8DAD0085BE9A /* tableCell.swift in Sources */,
 				EE7467AC26325EBE002AA93C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
